@@ -12,6 +12,6 @@ for n in range(quantity_gmail):
     gmails =''
     for i in range(length_gmail):
         gmails += random.choice(gmail)
-    for i in range(dlinap):
+    for i in range(length_gmail):
         password += random.choice(gmail)
     print(gmails + '@gmail.com', password)
